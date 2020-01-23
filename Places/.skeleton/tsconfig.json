@@ -12,7 +12,7 @@
 
 		// required, configurable
 		"rootDir": "src",
-		"outDir": "rojo",
+		"outDir": "lua",
 
 		// optional
 		"baseUrl": "src",
