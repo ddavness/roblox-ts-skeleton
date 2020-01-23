@@ -1,0 +1,26 @@
+{
+	"name": "AD-Skeleton",
+	"tree": {
+		"$className": "DataModel",
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"$path": "lua/server"
+		},
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"rbxtsLib": {
+				"$path": "../include"
+			},
+			"lib": {
+				"$path": "lua/lib"
+			}
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"$path": "lua/client"
+			}
+		}
+	}
+}
