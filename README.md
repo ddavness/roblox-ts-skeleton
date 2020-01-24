@@ -80,6 +80,8 @@ If you're `git clone`'ing your repository, the junctions will not be preserved. 
 
 - Since this is designed for roblox-ts projects, all lua code is essentially `.gitignore`d.
 
+- When compiling a place, don't forget to mention the location of the include folder: `rbxtsc -i ../include` or `rbxtsc -w -i ../include`.
+
 - The repository has extension recommendations that you can use to improve your coding experience;
 
 - The `Places/.eslintrc` file contains rules for code linting and styling. You should review them before writing any code!
