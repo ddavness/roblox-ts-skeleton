@@ -13,6 +13,9 @@
 			},
 			"lib": {
 				"$path": "lua/lib"
+			},
+			"community": {
+				"$path": "../node_modules/@rbxts"
 			}
 		},
 		"StarterPlayer": {
